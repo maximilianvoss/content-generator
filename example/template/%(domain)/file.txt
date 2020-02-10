@@ -1,0 +1,3 @@
+Domain: $(domain)
+Market: $(market)
+Language: $(language)

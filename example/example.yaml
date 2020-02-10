@@ -1,0 +1,11 @@
+configurations:
+  - name: Example UK
+    keys:
+      domain: www.example.co.uk
+      market: uk
+      language: en_gb
+  - name: Example US
+    keys:
+      domain: www.example.us
+      market: us
+      language: en_us
