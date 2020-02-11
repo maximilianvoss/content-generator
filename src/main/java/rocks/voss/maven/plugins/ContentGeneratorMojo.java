@@ -104,7 +104,7 @@ public class ContentGeneratorMojo extends AbstractMojo {
     }
 
     private String replaceVariables(ConfigurationBean set, String input) {
-        Pattern pattern = Pattern.compile("%\\((\\w+)\\)");
+        Pattern pattern = Pattern.compile("%\\(([\\w|-]+)\\)");
         Matcher matcher = pattern.matcher(input);
         while (matcher.find()) {
             String match = matcher.group(1);
